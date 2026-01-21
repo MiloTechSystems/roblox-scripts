@@ -1,0 +1,611 @@
+-- Created By Mulo Tech Systems
+-- Version: 2.1
+
+-- Instances:
+
+local main = Instance.new("ScreenGui")
+local main_2 = Instance.new("Frame")
+local navBar = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local search = Instance.new("TextButton")
+local teleport = Instance.new("TextButton")
+local exit = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local searchMenu = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local searchButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIGradient_2 = Instance.new("UIGradient")
+local itemFrame = Instance.new("ScrollingFrame")
+local UIListLayout = Instance.new("UIListLayout")
+local UICorner_5 = Instance.new("UICorner")
+local UIGradient_3 = Instance.new("UIGradient")
+local Dropdown = Instance.new("Frame")
+local MainButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIGradient_4 = Instance.new("UIGradient")
+local Options = Instance.new("Frame")
+local Option1 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_5 = Instance.new("UIGradient")
+local Option2 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UIGradient_6 = Instance.new("UIGradient")
+local Option3 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
+local UIGradient_8 = Instance.new("UIGradient")
+local UICorner_10 = Instance.new("UICorner")
+local Option4 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local UIGradient_9 = Instance.new("UIGradient")
+local Option5 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local UIGradient_10 = Instance.new("UIGradient")
+local UICorner_13 = Instance.new("UICorner")
+local UIGradient_11 = Instance.new("UIGradient")
+local teleportMenu = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local UIGradient_12 = Instance.new("UIGradient")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_15 = Instance.new("UICorner")
+local welcomeText = Instance.new("TextLabel")
+local version = Instance.new("TextLabel")
+local trademark = Instance.new("TextLabel")
+
+--Properties:
+
+main.Name = "main"
+main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main_2.Name = "main"
+main_2.Parent = main
+main_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+main_2.BorderColor3 = Color3.fromRGB(46, 46, 46)
+main_2.BorderSizePixel = 0
+main_2.Position = UDim2.new(0.00528696319, 0, 0.68069309, 0)
+main_2.Size = UDim2.new(0, 400, 0, 247)
+
+navBar.Name = "navBar"
+navBar.Parent = main_2
+navBar.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+navBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+navBar.BorderSizePixel = 0
+navBar.Position = UDim2.new(0, 0, -0.174696326, 0)
+navBar.Size = UDim2.new(1, 0, 0, 50)
+
+UICorner.Parent = navBar
+
+search.Name = "search"
+search.Parent = navBar
+search.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+search.BackgroundTransparency = 1.000
+search.BorderColor3 = Color3.fromRGB(0, 0, 0)
+search.BorderSizePixel = 0
+search.Position = UDim2.new(0.100000001, 0, 0, 0)
+search.Size = UDim2.new(0, 144, 0, 50)
+search.Font = Enum.Font.DenkOne
+search.Text = "Seach Menu"
+search.TextColor3 = Color3.fromRGB(255, 255, 255)
+search.TextScaled = true
+search.TextSize = 14.000
+search.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+search.TextWrapped = true
+
+teleport.Name = "teleport"
+teleport.Parent = navBar
+teleport.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+teleport.BackgroundTransparency = 1.000
+teleport.BorderColor3 = Color3.fromRGB(0, 0, 0)
+teleport.BorderSizePixel = 0
+teleport.Position = UDim2.new(0.524999976, 0, -0.0399999991, 0)
+teleport.Size = UDim2.new(0, 144, 0, 50)
+teleport.Font = Enum.Font.DenkOne
+teleport.Text = "Teleport Menu"
+teleport.TextColor3 = Color3.fromRGB(255, 255, 255)
+teleport.TextScaled = true
+teleport.TextSize = 14.000
+teleport.TextWrapped = true
+
+exit.Name = "exit"
+exit.Parent = navBar
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 0.900
+exit.BorderColor3 = Color3.fromRGB(0, 0, 0)
+exit.BorderSizePixel = 0
+exit.Position = UDim2.new(0.95500046, 0, -0.285117179, 0)
+exit.Size = UDim2.new(0, 30, 0, 30)
+exit.Font = Enum.Font.SourceSansBold
+exit.Text = "X"
+exit.TextColor3 = Color3.fromRGB(153, 0, 3)
+exit.TextScaled = true
+exit.TextSize = 14.000
+exit.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = exit
+
+searchMenu.Name = "searchMenu"
+searchMenu.Parent = main_2
+searchMenu.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+searchMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+searchMenu.BorderSizePixel = 0
+searchMenu.Size = UDim2.new(0, 400, 0, 247)
+searchMenu.Visible = false
+
+UICorner_3.Parent = searchMenu
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(145, 145, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = -45
+UIGradient.Parent = searchMenu
+
+searchButton.Name = "searchButton"
+searchButton.Parent = searchMenu
+searchButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+searchButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+searchButton.BorderSizePixel = 0
+searchButton.Position = UDim2.new(0.672500014, 0, 0.174089074, 0)
+searchButton.Size = UDim2.new(0, 86, 0, 23)
+searchButton.Font = Enum.Font.DenkOne
+searchButton.Text = "Search"
+searchButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+searchButton.TextScaled = true
+searchButton.TextSize = 14.000
+searchButton.TextWrapped = true
+
+UICorner_4.Parent = searchButton
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 170, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(98, 255, 0))}
+UIGradient_2.Rotation = -45
+UIGradient_2.Parent = searchButton
+
+itemFrame.Name = "itemFrame"
+itemFrame.Parent = searchMenu
+itemFrame.Active = true
+itemFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+itemFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+itemFrame.BorderSizePixel = 0
+itemFrame.Position = UDim2.new(0.0375000387, 0, 0.348178148, 0)
+itemFrame.Size = UDim2.new(0, 371, 0, 144)
+itemFrame.ScrollBarThickness = 0
+
+UIListLayout.Parent = itemFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+UICorner_5.Parent = itemFrame
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(165, 165, 165)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = -45
+UIGradient_3.Parent = itemFrame
+
+Dropdown.Name = "Dropdown"
+Dropdown.Parent = searchMenu
+Dropdown.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dropdown.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dropdown.BorderSizePixel = 0
+Dropdown.Position = UDim2.new(0.0567194372, 0, 0.103835136, 0)
+Dropdown.Size = UDim2.new(0, 215, 0, 40)
+
+MainButton.Name = "MainButton"
+MainButton.Parent = Dropdown
+MainButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainButton.BorderSizePixel = 0
+MainButton.Size = UDim2.new(1, 0, 1, 0)
+MainButton.Font = Enum.Font.DenkOne
+MainButton.Text = "Click to select!"
+MainButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+MainButton.TextScaled = true
+MainButton.TextSize = 14.000
+MainButton.TextWrapped = true
+
+UICorner_6.Parent = MainButton
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+UIGradient_4.Rotation = -45
+UIGradient_4.Parent = MainButton
+
+Options.Name = "Options"
+Options.Parent = Dropdown
+Options.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Options.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Options.BorderSizePixel = 0
+Options.ClipsDescendants = true
+Options.Position = UDim2.new(0, 0, 1, 0)
+Options.Size = UDim2.new(1, 0, 0, 0)
+
+Option1.Name = "Option1"
+Option1.Parent = Options
+Option1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Option1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Option1.BorderSizePixel = 0
+Option1.Position = UDim2.new(0, 0, 0, 80)
+Option1.Size = UDim2.new(1, 0, 0, 40)
+Option1.Font = Enum.Font.DenkOne
+Option1.Text = "Legendary"
+Option1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Option1.TextScaled = true
+Option1.TextSize = 14.000
+Option1.TextWrapped = true
+
+UICorner_7.Parent = Option1
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 204, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 0))}
+UIGradient_5.Rotation = -45
+UIGradient_5.Parent = Option1
+
+Option2.Name = "Option2"
+Option2.Parent = Options
+Option2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Option2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Option2.BorderSizePixel = 0
+Option2.Position = UDim2.new(0, 0, 0, 40)
+Option2.Size = UDim2.new(1, 0, 0, 40)
+Option2.Font = Enum.Font.DenkOne
+Option2.Text = "Mythic"
+Option2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Option2.TextScaled = true
+Option2.TextSize = 14.000
+Option2.TextWrapped = true
+
+UICorner_8.Parent = Option2
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 170, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(85, 255, 255))}
+UIGradient_6.Rotation = -45
+UIGradient_6.Parent = Option2
+
+Option3.Name = "Option3"
+Option3.Parent = Options
+Option3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Option3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Option3.BorderSizePixel = 0
+Option3.Size = UDim2.new(1, 0, 0, 40)
+Option3.Font = Enum.Font.Unknown
+Option3.Text = "Unique"
+Option3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Option3.TextScaled = true
+Option3.TextSize = 14.000
+Option3.TextWrapped = true
+
+UICorner_9.Parent = Option3
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 85, 127)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 127))}
+UIGradient_7.Rotation = -45
+UIGradient_7.Parent = Option3
+
+UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(72, 72, 72)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(131, 131, 131))}
+UIGradient_8.Rotation = -45
+UIGradient_8.Parent = Options
+
+UICorner_10.Parent = Options
+
+Option4.Name = "Option4"
+Option4.Parent = Options
+Option4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Option4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Option4.BorderSizePixel = 0
+Option4.Position = UDim2.new(0, 0, 0, 120)
+Option4.Size = UDim2.new(1, 0, 0, 40)
+Option4.Font = Enum.Font.DenkOne
+Option4.Text = "Epic"
+Option4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Option4.TextScaled = true
+Option4.TextSize = 14.000
+Option4.TextWrapped = true
+
+UICorner_11.Parent = Option4
+
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(85, 0, 127)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(170, 0, 255))}
+UIGradient_9.Rotation = -45
+UIGradient_9.Parent = Option4
+
+Option5.Name = "Option5"
+Option5.Parent = Options
+Option5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Option5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Option5.BorderSizePixel = 0
+Option5.Position = UDim2.new(0, 0, 0, 160)
+Option5.Size = UDim2.new(1, 0, 0, 40)
+Option5.Font = Enum.Font.DenkOne
+Option5.Text = "Rare"
+Option5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Option5.TextScaled = true
+Option5.TextSize = 14.000
+Option5.TextWrapped = true
+
+UICorner_12.Parent = Option5
+
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 141, 126)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 170, 127))}
+UIGradient_10.Rotation = -45
+UIGradient_10.Parent = Option5
+
+UICorner_13.Parent = Dropdown
+
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(145, 145, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_11.Rotation = -45
+UIGradient_11.Parent = Dropdown
+
+teleportMenu.Name = "teleportMenu"
+teleportMenu.Parent = main_2
+teleportMenu.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+teleportMenu.BorderColor3 = Color3.fromRGB(0, 0, 0)
+teleportMenu.BorderSizePixel = 0
+teleportMenu.Size = UDim2.new(1, 0, 1, 0)
+teleportMenu.Visible = false
+
+UICorner_14.Parent = teleportMenu
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(145, 145, 145)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Rotation = -45
+UIGradient_12.Parent = teleportMenu
+
+TextLabel.Parent = teleportMenu
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "Teleport system coming soon!"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_15.Parent = main_2
+
+welcomeText.Name = "welcomeText"
+welcomeText.Parent = main_2
+welcomeText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+welcomeText.BackgroundTransparency = 1.000
+welcomeText.BorderColor3 = Color3.fromRGB(0, 0, 0)
+welcomeText.BorderSizePixel = 0
+welcomeText.Position = UDim2.new(0.137500003, 0, 0.0242914986, 0)
+welcomeText.Size = UDim2.new(0, 290, 0, 183)
+welcomeText.Font = Enum.Font.Unknown
+welcomeText.Text = "Welcome to Milo Tech Systems' Fruit Forager Tool"
+welcomeText.TextColor3 = Color3.fromRGB(255, 255, 255)
+welcomeText.TextScaled = true
+welcomeText.TextSize = 14.000
+welcomeText.TextWrapped = true
+
+version.Name = "version"
+version.Parent = main_2
+version.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+version.BackgroundTransparency = 1.000
+version.BorderColor3 = Color3.fromRGB(0, 0, 0)
+version.BorderSizePixel = 0
+version.Position = UDim2.new(-0.0175000001, 0, -0.0242914986, 0)
+version.Size = UDim2.new(0, 86, 0, 12)
+version.Font = Enum.Font.Unknown
+version.Text = "Version 2.1"
+version.TextColor3 = Color3.fromRGB(255, 255, 255)
+version.TextSize = 14.000
+version.TextWrapped = true
+
+trademark.Name = "trademark"
+trademark.Parent = main_2
+trademark.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trademark.BackgroundTransparency = 1.000
+trademark.BorderColor3 = Color3.fromRGB(0, 0, 0)
+trademark.BorderSizePixel = 0
+trademark.Position = UDim2.new(0.627401948, 0, -0.0421293303, 0)
+trademark.Size = UDim2.new(0, 149, 0, 16)
+trademark.Font = Enum.Font.SourceSans
+trademark.Text = "Milo Tech Systems 2026 ©"
+trademark.TextColor3 = Color3.fromRGB(255, 255, 255)
+trademark.TextSize = 14.000
+
+-- Scripts:
+
+local function TISJIUN_fake_script() -- search.glowText 
+	local script = Instance.new('LocalScript', search)
+
+	local button = script.Parent
+	local txColour = button.TextColor3
+	
+	button.mouseEnter:Connect(function()
+		button.TextStrokeTransparency = 0.5
+		button.TextStrokeColor3 = txColour
+	end)
+	
+	button.mouseLeave:Connect(function()
+		button.TextStrokeTransparency = 1
+	end)
+end
+coroutine.wrap(TISJIUN_fake_script)()
+local function BZUQ_fake_script() -- teleport.glowText 
+	local script = Instance.new('LocalScript', teleport)
+
+	local button = script.Parent
+	local txColour = button.TextColor3
+	
+	button.mouseEnter:Connect(function()
+		button.TextStrokeTransparency = 0.5
+		button.TextStrokeColor3 = txColour
+	end)
+	
+	button.mouseLeave:Connect(function()
+		button.TextStrokeTransparency = 1
+	end)
+end
+coroutine.wrap(BZUQ_fake_script)()
+local function JNAFJM_fake_script() -- exit.closeGUI 
+	local script = Instance.new('LocalScript', exit)
+
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		script.Parent.Parent.parent.Parent:destroy()
+	end
+	)
+end
+coroutine.wrap(JNAFJM_fake_script)()
+local function BEDSTH_fake_script() -- exit.glowText 
+	local script = Instance.new('LocalScript', exit)
+
+	local button = script.Parent
+	local txColour = button.TextColor3
+	
+	button.mouseEnter:Connect(function()
+		button.TextStrokeTransparency = 0.5
+		button.TextStrokeColor3 = txColour
+	end)
+	
+	button.mouseLeave:Connect(function()
+		button.TextStrokeTransparency = 1
+	end)
+end
+coroutine.wrap(BEDSTH_fake_script)()
+local function JHBYDE_fake_script() -- main_2.LocalScript 
+	local script = Instance.new('LocalScript', main_2)
+
+	print("point1")
+	
+	local root = script.Parent
+	
+	local searchBtn = root.navBar.search
+	local teleportBtn = root.navBar.teleport
+	print("point2")
+	
+	local searchMenu = root.searchMenu
+	local teleportMenu = root.teleportMenu
+	
+	print("point3")
+	
+	print("point4")
+	
+	searchBtn.MouseButton1Click:Connect(function()
+		root.welcomeText.Visible =false
+		teleportMenu.Visible = false
+		print("ITEM")
+		searchMenu.Visible = true
+	end)
+	
+	teleportBtn.MouseButton1Click:Connect(function()
+		root.welcomeText.Visible =false
+		searchMenu.Visible = false
+	
+		teleportMenu.Visible = true
+	end)
+	
+	print("point5")
+end
+coroutine.wrap(JHBYDE_fake_script)()
+local function CTAT_fake_script() -- itemFrame.LocalScript 
+	local script = Instance.new('LocalScript', itemFrame)
+
+	-- LocalScript
+	
+	local root = script.Parent.Parent
+	
+	local itemFrame = root:WaitForChild("itemFrame")
+	local searchButton = root:WaitForChild("searchButton")
+	local searchSource = root:WaitForChild("Dropdown"):WaitForChild("MainButton")
+	
+	-- Clear previous results
+	local function clearResults()
+		for _, child in ipairs(itemFrame:GetChildren()) do
+			if child:IsA("TextBox") then
+				child:Destroy()
+			end
+		end
+	end
+	
+	-- Create a result textbox
+	local function createResult(text)
+		local box = Instance.new("TextBox")
+		box.Size = UDim2.new(1, 0, 0, 16)
+		box.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+		box.BorderSizePixel = 0
+		box.TextColor3 = Color3.new(1, 1, 1)
+		box.TextXAlignment = Enum.TextXAlignment.Left
+		box.TextYAlignment = Enum.TextYAlignment.Center
+		box.TextEditable = false
+		box.ClearTextOnFocus = false
+		box.Text = text
+		box.Parent = itemFrame
+		box.Font = Enum.Font.DenkOne
+		box.TextScaled = true
+	end
+	
+	-- Run the search
+	local function searchWorkspace()
+		local searchValue = searchSource.Text
+	
+		clearResults()
+	
+		if not searchValue or searchValue == "" then
+			return
+		end
+	
+		searchValue = string.lower(searchValue)
+	
+		for _, inst in ipairs(workspace:GetDescendants()) do
+			if string.find(string.lower(inst.Name), searchValue, 1, true) then
+				createResult(inst.Name)
+			end
+		end
+	end
+	
+	-- 🔘 Button hookup
+	searchButton.MouseButton1Click:Connect(searchWorkspace)
+	
+end
+coroutine.wrap(CTAT_fake_script)()
+local function OVPV_fake_script() -- Dropdown.LocalScript 
+	local script = Instance.new('LocalScript', Dropdown)
+
+	local dropdown = script.Parent
+	local mainButton = dropdown.MainButton
+	local optionsFrame = dropdown.Options
+	
+	local open = false
+	local optionHeight = 40
+	local optionCount = #optionsFrame:GetChildren()
+	
+	-- Toggle dropdown
+	mainButton.MouseButton1Click:Connect(function()
+		open = not open
+	
+		if open then
+			optionsFrame:TweenSize(
+				UDim2.new(1, 0, 0, optionHeight * optionCount),
+				"Out",
+				"Quad",
+				0.25,
+				true
+			)
+		else
+			optionsFrame:TweenSize(
+				UDim2.new(1, 0, 0, 0),
+				"Out",
+				"Quad",
+				0.25,
+				true
+			)
+		end
+	end)
+	
+	-- Handle option clicks
+	for _, option in pairs(optionsFrame:GetChildren()) do
+		if option:IsA("TextButton") then
+			option.MouseButton1Click:Connect(function()
+				mainButton.Text = option.Text
+				open = false
+				optionsFrame:TweenSize(
+					UDim2.new(1, 0, 0, 0),
+					"Out",
+					"Quad",
+					0.25,
+					true
+				)
+			end)
+		end
+	end
+	print("Hello world!")
+	
+end
+coroutine.wrap(OVPV_fake_script)()
