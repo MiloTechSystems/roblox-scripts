@@ -1,6 +1,5 @@
--- Gui to Lua
--- Version: 3.2
-
+-- Made By Milo Technology Systems
+-- v1
 -- Instances:
 
 local main = Instance.new("ScreenGui")
